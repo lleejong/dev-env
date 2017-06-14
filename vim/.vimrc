@@ -67,6 +67,7 @@ colorscheme jellybeans
 
 hi StatusLine cterm=bold,reverse ctermbg=Yellow ctermfg=Blue
 hi StatusLineNC cterm=bold,reverse
+hi LineNr       term=bold cterm=bold ctermfg=2 guifg=Grey guibg=Grey90
 " save last localtion for WIN32 platform
 autocmd BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
