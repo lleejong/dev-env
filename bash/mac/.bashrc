@@ -62,7 +62,7 @@ fi
 #    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 #fi
 #prompt_command='echo -ne "\033]0;$user@$hostname:${pwd/$home/~}\007"'
-export PS1="\h@\u:\w>\[$(tput sgr0)\]"
+#export PS1="\h@\u:\w>\[$(tput sgr0)\]"
 
 unset color_prompt force_color_prompt
 
